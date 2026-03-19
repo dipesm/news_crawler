@@ -16,5 +16,5 @@ function db_connect(){
     $conn->set_charset('utf8mb4');
     return $conn;
 }
-//function h($s){ return htmlspecialchars($s ?? '', ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'); }
+
 ?>
