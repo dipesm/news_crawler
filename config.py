@@ -23,7 +23,7 @@ MAX_WORKERS           = 50   # parallel threads (increase for speed, decrease to
 MAX_RETRIES           = 2    # retry attempts per site before giving up
 FETCH_TIMEOUT         = 8    # seconds before a request is considered dead
 MAX_ARTICLE_AGE_DAYS  = 1    # skip articles older than this many days
-MAX_ARTICLES_PER_SITE = 30   # max article links to process per site per run
+MAX_ARTICLES_PER_SITE = 20   # max article links to process per site per run
 
 # -----------------------------------------------------------------------------
 # Keyword filtering
