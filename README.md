@@ -84,8 +84,7 @@ DB_CONFIG = {
 ### 3. Run migrations
 
 ```bash
-mysql -u root -p ecn < migration.sql
-mysql -u root -p ecn < migration_v2.sql
+mysql -u root -p ecn < news.sql
 ```
 
 ### 4. Add news sites to the database
